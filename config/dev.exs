@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :rabu3_graphql_api, Rabu3GraphqlApi.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "postgres123",
   database: "rabu3_graphql_api_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
